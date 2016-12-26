@@ -1,0 +1,9 @@
+AC_INIT(sysapp/devip.c)
+AM_INIT_AUTOMAKE(sysapp,1.0.8)
+AC_CONFIG_SUBDIRS(sysutil sysapp)
+VERSION="1.0.1"
+DEFAULT_LANG="en"
+AC_SUBST(VERSION)
+AC_SUBST(DEFAULT_LANG)
+AC_OUTPUT(Makefile)
+

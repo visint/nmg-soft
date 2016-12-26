@@ -1,0 +1,13 @@
+AC_PREREQ(2.67)
+AC_INIT(unitapp/uset, 1.0.0, gztt.ll@gmail.com)                ### Modified
+AM_INIT_AUTOMAKE(unitapp, 1.0.0, quicklife@126.com)       ### Added
+AC_CONFIG_SRCDIR([unitapp/unitset.c])
+AM_CONFIG_HEADER(config.h)
+AC_PROG_CC
+AC_PROG_RANLIB
+AC_OUTPUT([Makefile
+	   unitapp/Makefile
+	   unitutil/Makefile]
+          )
+
+

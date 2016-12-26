@@ -1,0 +1,175 @@
+callcenter.o: callcenter.c \
+ /home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/stdio.h \
+ /home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/features.h \
+ /home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_config.h \
+ /home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/sys/cdefs.h \
+ /home/bobo/buildroot-2012.08/output/host/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.5.4/include/stddef.h \
+ /home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/types.h \
+ /home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/wordsize.h \
+ /home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/typesizes.h \
+ /home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/pthreadtypes.h \
+ /home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/endian.h \
+ /home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/endian.h \
+ /home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/byteswap.h \
+ /home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/byteswap.h \
+ /home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/byteswap-common.h \
+ /home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_stdio.h \
+ /home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_mutex.h \
+ /home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/pthread.h \
+ /home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/sched.h \
+ /home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/time.h \
+ /home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/sched.h \
+ /home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/time.h \
+ /home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h \
+ /home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/signal.h \
+ /home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/sigset.h \
+ /home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/setjmp.h \
+ /home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_pthread.h \
+ /home/bobo/buildroot-2012.08/output/host/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.5.4/include/stdarg.h \
+ /home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/stdio_lim.h \
+ /home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/stdlib.h \
+ /home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/sys/types.h \
+ /home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/sys/select.h \
+ /home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/select.h \
+ /home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/sys/sysmacros.h \
+ /home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/alloca.h \
+ /home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/string.h \
+ /home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/signum.h \
+ /home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/siginfo.h \
+ /home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/sigaction.h \
+ /home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/sigcontext.h \
+ /home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/asm/sigcontext.h \
+ /home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/sigstack.h \
+ /home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/sigthread.h \
+ /home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h \
+ /home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/unistd.h \
+ /home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/posix_opt.h \
+ /home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/confname.h \
+ /home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/getopt.h \
+ /home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/sys/ipc.h \
+ /home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/ipc.h \
+ /home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/sys/sem.h \
+ /home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/sem.h \
+ ../include/sqlite3.h ../include/public.h ../include/typedefs.h \
+ ../include/visipc.h ../include/unit.h ../include/infoset.h \
+ ../include/chassis.h ../include/visdb.h ../include/otu.h
+
+/home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/stdio.h:
+
+/home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/features.h:
+
+/home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_config.h:
+
+/home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/sys/cdefs.h:
+
+/home/bobo/buildroot-2012.08/output/host/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.5.4/include/stddef.h:
+
+/home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/types.h:
+
+/home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/wordsize.h:
+
+/home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/typesizes.h:
+
+/home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/pthreadtypes.h:
+
+/home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/endian.h:
+
+/home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/endian.h:
+
+/home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/byteswap.h:
+
+/home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/byteswap.h:
+
+/home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/byteswap-common.h:
+
+/home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_stdio.h:
+
+/home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_mutex.h:
+
+/home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/pthread.h:
+
+/home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/sched.h:
+
+/home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/time.h:
+
+/home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/sched.h:
+
+/home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/time.h:
+
+/home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h:
+
+/home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/signal.h:
+
+/home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/sigset.h:
+
+/home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/setjmp.h:
+
+/home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_pthread.h:
+
+/home/bobo/buildroot-2012.08/output/host/usr/lib/gcc/arm-unknown-linux-uclibcgnueabi/4.5.4/include/stdarg.h:
+
+/home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/stdio_lim.h:
+
+/home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/stdlib.h:
+
+/home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/sys/types.h:
+
+/home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/sys/select.h:
+
+/home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/select.h:
+
+/home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/sys/sysmacros.h:
+
+/home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/alloca.h:
+
+/home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/string.h:
+
+/home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/signum.h:
+
+/home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/siginfo.h:
+
+/home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/sigaction.h:
+
+/home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/sigcontext.h:
+
+/home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/asm/sigcontext.h:
+
+/home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/sigstack.h:
+
+/home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/sigthread.h:
+
+/home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h:
+
+/home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/unistd.h:
+
+/home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/posix_opt.h:
+
+/home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/confname.h:
+
+/home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/getopt.h:
+
+/home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/sys/ipc.h:
+
+/home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/ipc.h:
+
+/home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/sys/sem.h:
+
+/home/bobo/buildroot-2012.08/output/host/usr/arm-unknown-linux-uclibcgnueabi/sysroot/usr/include/bits/sem.h:
+
+../include/sqlite3.h:
+
+../include/public.h:
+
+../include/typedefs.h:
+
+../include/visipc.h:
+
+../include/unit.h:
+
+../include/infoset.h:
+
+../include/chassis.h:
+
+../include/visdb.h:
+
+../include/otu.h:

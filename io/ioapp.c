@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+//arm-linux-gcc -o ioset  ioapp.c -I../include -L=./ -L/home/visint/src/arm/lib -lvispace -lsqlite3 -liconv
+int main(int argc, char **argv)
+{
+ /*unsigned char slot=4;
+ char *send_buff[500];
+ char *receive_buff[500];
+ card_access(slot,cmd_set_fix_para1,send_buff,500,receive_buff,500);
+ */
+ int slot;
+ char mess[512]={0x53,0x41,0x1,0x4,0x88,0xff,0x5,0x92,0xff,0x6,0xe8,0xfe,0x7,0x4d,0x1,0x8,0x1,0x0
+,0xa,0x1,0x0,0xb,0x1,0x0,0xf,0x2,0x0,0x10,0x2,0x0,0x0,0x0};
+ /*mess[0]=0x53;
+ mess[1]=0x41;
+ mess[2]=0x1;
+ mess[3]=0x4;
+ mess[4]=0x1;
+ mess[5]=0x1;
+ */
+ if (argc>1)
+ {
+ slot=atoi(argv[1]);
+ sendMessageToUnit(0,slot,mess,300);
+ }
+ else
+    printf("slot must between 1 to 15\n");
+ return 0;
+}

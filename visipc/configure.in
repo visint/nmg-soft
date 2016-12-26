@@ -1,0 +1,11 @@
+AC_PREREQ(2.67)
+AC_INIT(ipcapp/shmapp, 1.0.0, gztt.ll@gmail.com)                ### Modified
+AM_INIT_AUTOMAKE(ipcapp, 1.0.0, gztt.ll@gmail.com)       ### Added
+AC_CONFIG_SRCDIR([ipcapp/shmapp.c])
+AM_CONFIG_HEADER([config.h])
+AC_PROG_CC
+AC_PROG_RANLIB
+AC_OUTPUT(Makefile
+          )
+
+

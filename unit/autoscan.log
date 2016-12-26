@@ -1,0 +1,16 @@
+autoscan: warning: missing AC_CHECK_FUNCS([munmap]) wanted by: 
+	unitmap.c:16
+	unitmap.c:39
+autoscan: warning: missing AC_CHECK_FUNCS([strchr]) wanted by: 
+	unit.c:91
+	unit.c:96
+	unit.c:165
+	unit.c:170
+autoscan: warning: missing AC_CHECK_HEADERS([fcntl.h]) wanted by: 
+	unit.c:6
+	unitmap.c:3
+	ushow/unitshow.c:4
+	uset/unitset.c:5
+autoscan: warning: missing AC_FUNC_MMAP wanted by: 
+	unitmap.c:11
+	unitmap.c:32

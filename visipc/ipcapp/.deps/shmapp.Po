@@ -1,0 +1,158 @@
+shmapp.o: shmapp.c \
+ /opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/stdio.h \
+ /opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/features.h \
+ /opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_config.h \
+ /opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/sys/cdefs.h \
+ /opt/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-uclibcgnueabi/4.5.4/include/stddef.h \
+ /opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/types.h \
+ /opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/wordsize.h \
+ /opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/typesizes.h \
+ /opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/pthreadtypes.h \
+ /opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/endian.h \
+ /opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/endian.h \
+ /opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/byteswap.h \
+ /opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/byteswap.h \
+ /opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/byteswap-common.h \
+ /opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_stdio.h \
+ /opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_mutex.h \
+ /opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/pthread.h \
+ /opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/sched.h \
+ /opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/time.h \
+ /opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/sched.h \
+ /opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/time.h \
+ /opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h \
+ /opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/signal.h \
+ /opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/sigset.h \
+ /opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/setjmp.h \
+ /opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_pthread.h \
+ /opt/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-uclibcgnueabi/4.5.4/include/stdarg.h \
+ /opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/stdio_lim.h \
+ /opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/stdlib.h \
+ /opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/sys/types.h \
+ /opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/sys/select.h \
+ /opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/select.h \
+ /opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/sys/sysmacros.h \
+ /opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/alloca.h \
+ /opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/string.h \
+ /opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/unistd.h \
+ /opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/posix_opt.h \
+ /opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/confname.h \
+ /opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/getopt.h \
+ /opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/errno.h \
+ /opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/errno.h \
+ /opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/linux/errno.h \
+ /opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/asm/errno.h \
+ /opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/asm-generic/errno.h \
+ /opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/asm-generic/errno-base.h \
+ /opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/error.h \
+ /opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/sys/ipc.h \
+ /opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/ipc.h \
+ /opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/sys/shm.h \
+ /opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/shm.h \
+ ../../include/typedefs.h ../../include/infoset.h ../../include/unit.h
+
+/opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/stdio.h:
+
+/opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/features.h:
+
+/opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_config.h:
+
+/opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/sys/cdefs.h:
+
+/opt/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-uclibcgnueabi/4.5.4/include/stddef.h:
+
+/opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/types.h:
+
+/opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/wordsize.h:
+
+/opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/typesizes.h:
+
+/opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/pthreadtypes.h:
+
+/opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/endian.h:
+
+/opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/endian.h:
+
+/opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/byteswap.h:
+
+/opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/byteswap.h:
+
+/opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/byteswap-common.h:
+
+/opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_stdio.h:
+
+/opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_mutex.h:
+
+/opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/pthread.h:
+
+/opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/sched.h:
+
+/opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/time.h:
+
+/opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/sched.h:
+
+/opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/time.h:
+
+/opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h:
+
+/opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/signal.h:
+
+/opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/sigset.h:
+
+/opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/setjmp.h:
+
+/opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_pthread.h:
+
+/opt/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-uclibcgnueabi/4.5.4/include/stdarg.h:
+
+/opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/stdio_lim.h:
+
+/opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/stdlib.h:
+
+/opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/sys/types.h:
+
+/opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/sys/select.h:
+
+/opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/select.h:
+
+/opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/sys/sysmacros.h:
+
+/opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/alloca.h:
+
+/opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/string.h:
+
+/opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/unistd.h:
+
+/opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/posix_opt.h:
+
+/opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/confname.h:
+
+/opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/getopt.h:
+
+/opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/errno.h:
+
+/opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/errno.h:
+
+/opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/linux/errno.h:
+
+/opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/asm/errno.h:
+
+/opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/asm-generic/errno.h:
+
+/opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/asm-generic/errno-base.h:
+
+/opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/error.h:
+
+/opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/sys/ipc.h:
+
+/opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/ipc.h:
+
+/opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/sys/shm.h:
+
+/opt/buildroot/output/host/usr/arm-buildroot-linux-uclibcgnueabi/sysroot/usr/include/bits/shm.h:
+
+../../include/typedefs.h:
+
+../../include/infoset.h:
+
+../../include/unit.h:
